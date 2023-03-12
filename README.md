@@ -9,4 +9,4 @@ This information can be gathered from gitlab [notes](https://docs.gitlab.com/ee/
   
 This code looks through given project and based on issue notes calculates the total time each user has spent on project. Prints out the amount of time each user has spent and also each issue the user has spent time on.
   
-This code does not take into account time spent on merge requests etc. but it should be relatively easy to add this functionality.
+This code does not take into account time spent on merge requests etc. but it should be relatively easy to add this functionality. Also, `per_page` value might need to be changed for larger projects.
