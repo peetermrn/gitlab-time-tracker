@@ -4,7 +4,7 @@ import requests
 # YOUR INFO HERE
 project_id = "28093"
 access_token = "TOKEN"  # a private token with read_api access:
-base_url = "https://gitlab.cs.ttu.ee/api/v4"
+base_url = "https://gitlab.com/api/v4"
 
 # headers and parameters
 headers = {'Private-Token': access_token}
